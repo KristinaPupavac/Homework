@@ -1,0 +1,53 @@
+package ba.bitcamp.task2;
+
+/**
+ * Class
+ * 
+ * @author Kristina Pupavac
+ *
+ */
+public class Firm {
+	private String name;
+	private Employee director;
+	private Employee[] employees;
+
+	/**
+	 * Defult constructor
+	 * 
+	 * @param name
+	 *            - Name
+	 * @param director
+	 *            - Director
+	 * @param employees
+	 *            - Employees
+	 */
+	public Firm(String name, Employee director, Employee[] employees) {
+		this.name = name;
+		this.director = director;
+		this.employees = employees;
+	}
+
+	/**
+	 * Gets number of employees
+	 * 
+	 * @return - number of employees
+	 */
+	public int getNumberOfEnployees() {
+		return employees.length;
+	}
+	public int getAllEmployeesSalary () {
+		return employees.length ;
+	}
+	
+	public String getFemale () {
+		int counter = 0;
+		for (int i = 0; i < employees.length; i++) {
+			if(employees[i].getSex().equals("female")) {
+			counter++;
+			}
+		}
+		return counter;
+	}
+	
+
+}

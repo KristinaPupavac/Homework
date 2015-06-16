@@ -1,0 +1,7 @@
+package ba.bitcamp.task2;
+
+public class Firm {
+	private String name;
+	
+
+}

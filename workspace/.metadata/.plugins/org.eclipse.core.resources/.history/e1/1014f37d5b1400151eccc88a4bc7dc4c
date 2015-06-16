@@ -1,0 +1,16 @@
+package ba.bitcamp.task2;
+/**
+ * Class 
+ * @author Kristina Pupavac
+ *
+ */
+public class Firm {
+	private String name;
+	private Employee director;
+	private Employee[] employees;
+	
+	
+	
+	
+
+}

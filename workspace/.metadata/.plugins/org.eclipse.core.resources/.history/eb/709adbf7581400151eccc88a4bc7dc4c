@@ -1,0 +1,38 @@
+package ba.bitcamp.task2;
+
+public class Employee {
+	private String name;
+	private String sex;
+	private int salary;
+	/**
+	 * 
+	 * @param name
+	 * @param sex
+	 * @param salary
+	 */
+	public Employee(String name, String sex, int salary) {
+		this.name = name;
+		this.sex = sex;
+		this.salary = salary;
+	}
+    /**
+     * 
+     * @return
+     */
+	public String getName () {
+		return name;
+	}
+	/**
+	 * 
+	 * @return
+	 */
+	public String getSex() {
+		return sex;
+	}
+	public void setSalary () {
+		
+	}
+	
+	
+
+}

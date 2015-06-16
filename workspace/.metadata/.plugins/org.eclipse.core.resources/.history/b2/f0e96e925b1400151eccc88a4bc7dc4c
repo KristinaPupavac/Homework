@@ -1,0 +1,28 @@
+package ba.bitcamp.task2;
+/**
+ * Class 
+ * @author Kristina Pupavac
+ *
+ */
+public class Firm {
+	private String name;
+	private Employee director;
+	private Employee[] employees;
+	/**
+	 * Defult constructor
+	 * @param name
+	 * @param director
+	 * @param employees
+	 */
+	public Firm(String name, Employee director, Employee[] employees) {
+		this.name = name;
+		this.director = director;
+		this.employees = employees;
+	}
+	
+	
+	
+	
+	
+
+}

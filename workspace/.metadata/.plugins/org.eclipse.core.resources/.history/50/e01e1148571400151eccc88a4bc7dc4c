@@ -1,0 +1,6 @@
+package ba.bitcamp.task2;
+
+public class Employee {
+	private String name;
+
+}

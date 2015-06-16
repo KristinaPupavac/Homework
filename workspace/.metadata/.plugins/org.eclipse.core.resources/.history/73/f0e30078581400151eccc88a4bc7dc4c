@@ -1,0 +1,13 @@
+package ba.bitcamp.task2;
+
+public class Employee {
+	private String name;
+	private String sex;
+	private int salary;
+	
+	public void getName () {
+		this.name;
+	}
+	
+
+}
